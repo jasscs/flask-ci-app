@@ -34,7 +34,7 @@ jobs:
 
       # Step 4: Check code style
       - name: Check code style (lint)
-        run: flake8 app/
+        run: flake8 .
 
       # Step 5: Run tests
       - name: Run tests
